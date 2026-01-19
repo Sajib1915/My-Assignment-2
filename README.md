@@ -37,19 +37,19 @@
 ### Navbar
 
 - **Desktop/Laptop/Large Device:**
-  - Logo on the Left
-  - Menu Items in the Center (like Figma design)
-  - Gradient Button on the Right
+  - Logo on the Left - ok
+  - Menu Items in the Center (like Figma design) -ok
+  - Gradient Button on the Right  -ok
 - **Mobile Device:**
-  - Hidden nav items with hamburger menu icon
-  - Fully responsive navigation
+  - Hidden nav items with hamburger menu icon -panding
+  - Fully responsive navigation - panding
 
 ### Banner Section
 
 - **Desktop/Laptop/Large Device:**
-  - Background Image
-  - Center-aligned podcast circle view with visual effects
-  - Relevant heading and descriptive text at center
+  - Background Image - ok
+  - Center-aligned podcast circle view with visual effects - panding
+  - Relevant heading and descriptive text at center  
   - Two call-to-action buttons below the text
 - **Mobile Device:**
   - Mobile responsive layout matching Figma design
