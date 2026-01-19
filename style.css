@@ -503,3 +503,293 @@ body {
   width: 60px;
   height: 60px;
 }
+
+/* Featured Episodes & Meet The Host Section */
+.episodes-host-section {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 120px;
+  
+  padding: 120px 200px;
+  background: rgba(26, 11, 46, 1);
+}
+
+/* Section Title */
+.section-title {
+  width: 100%;
+  max-width: 1200px;
+  
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  
+  margin: 0;
+}
+
+/* Frame 1: Episodes Frame */
+.episodes-frame {
+  width: 100%;
+  max-width: 1200px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* Episodes Cards Container */
+.episodes-cards {
+  width: 100%;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+/* Episode Card */
+.episode-card {
+  width: 380px;
+  
+  border-radius: 24px;
+  background: rgba(53, 17, 101, 0.4);
+  overflow: hidden;
+  
+  transition: transform 0.3s ease;
+}
+
+.episode-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Episode Video Link */
+.episode-video {
+  width: 380px;
+  height: 214px;
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 24px 24px 0px 0px;
+  overflow: hidden;
+  
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Video Thumbnail */
+.video-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+  transition: transform 0.3s ease;
+}
+
+.episode-video:hover .video-thumbnail {
+  transform: scale(1.05);
+}
+
+/* Play Button */
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 60px;
+  height: 60px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 50%;
+  background: linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+  
+  transition: transform 0.3s ease;
+  z-index: 10;
+}
+
+.episode-video:hover .play-button {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Episode Info */
+.episode-info {
+  width: 340px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  
+  padding: 24px;
+}
+
+/* Episode Title */
+.episode-title {
+  width: 100%;
+  
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  
+  margin: 0;
+}
+
+/* Episode Description */
+.episode-description {
+  width: 100%;
+  
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  
+  margin: 0;
+}
+
+/* Episode Duration */
+.episode-duration {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  
+  color: rgba(0, 255, 136, 1);
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.clock-icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* Frame 2: Host Frame */
+.host-frame {
+  width: 100%;
+  max-width: 1200px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Host Card */
+.host-card {
+  width: 100%;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  
+  padding: 40px;
+  border-radius: 40px;
+  background: rgba(53, 17, 101, 0.4);
+}
+
+/* Host Image */
+.host-image {
+  width: 200px;
+  height: 200px;
+  
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Host Details */
+.host-details {
+  flex: 1;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Host Name */
+.host-name {
+  width: 100%;
+  max-width: 896px;
+  
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  
+  margin: 0;
+}
+
+/* Host Bio */
+.host-bio {
+  width: 100%;
+  max-width: 896px;
+  
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  
+  margin: 0;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 50%;
+  background: rgba(251, 9, 180, 0.2);
+  
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background: linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+  transform: scale(1.1);
+}
+
+.social-icon img {
+  width: 20px;
+  height: 20px;
+}
