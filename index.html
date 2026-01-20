@@ -8,23 +8,31 @@
 </head>
 <body>
   <nav class="navbar">
-    <!-- Logo -->
-    <div class="logo">
-      <span class="tech">Tech</span><span class="wave">Wave</span>
-    </div>
 
-    <!-- Menu -->
-    <div class="nav-menu">
-      <a href="#">About</a>
-      <a href="#">Episodes</a>
-      <a href="#">Host</a>
-    </div>
+  <div class="logo">
+    <span class="tech">Tech</span><span class="wave">Wave</span>
+  </div>
 
-    <!-- Button -->
-    <div class="primary-btn">
-  <span>Subscribe</span>
-  <img src="/assets/ArrowRight.png" alt="arrow icon" class="btn-icon">
-</div>
+  <!-- checkbox -->
+  <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+
+  <!-- hamburger -->
+  <label for="menu-toggle" class="hamburger mobile-only">
+    <img src="/assets/hamburger-menu.png" alt="menu">
+  </label>
+
+  <!-- menu -->
+  <div class="nav-menu">
+    <a href="#">About</a>
+    <a href="#">Episodes</a>
+    <a href="#">Host</a>
+  </div>
+
+  <!-- subscribe  -->
+  <div class="primary-btn desktop-only">
+    Subscribe
+  </div>
+
 </nav>
      
          <!-- Banner Section -->
@@ -318,6 +326,7 @@
   </div>
   
 </footer>
+
 </main>
 </body>
 </html>
